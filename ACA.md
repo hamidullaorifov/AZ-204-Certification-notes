@@ -54,7 +54,8 @@
 
 ## 🔐 Security & Auth Flow
 
-```flowchart LR
+```mermaid
+flowchart LR
   A[Request] --> B[Auth Sidecar]
   B -->|Valid Token| C[App Container]
   B -->|Invalid| D[Redirect to Login]
@@ -136,11 +137,11 @@ Solution:
 
 ## ⚡ Dapr Integration
 ### Core APIs
-| API	| Use Case  |
+| API	               | Use Case  |
 | Service Invocation |	Secure microservices communication |
 | State Management |	CRUD operations with state stores |
 | Pub/Sub |	Event-driven messaging |
-| Actors	| Scalable units of work
+| Actors	| Scalable units of work |
 ### Enable Dapr (ARM Snippet)
 ```json
 "dapr": {
