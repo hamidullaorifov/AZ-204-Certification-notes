@@ -137,11 +137,12 @@ Solution:
 
 ## ⚡ Dapr Integration
 ### Core APIs
-| API	               | Use Case  |
-| Service Invocation |	Secure microservices communication |
-| State Management |	CRUD operations with state stores |
-| Pub/Sub |	Event-driven messaging |
-| Actors	| Scalable units of work |
+| API                | Use Case                             |
+|--------------------|--------------------------------------|
+| Service Invocation | Secure microservices communication   |
+| State Management   | CRUD operations with state stores   |
+| Pub/Sub            | Event-driven messaging              |
+| Actors             | Scalable units of work              |
 ### Enable Dapr (ARM Snippet)
 ```json
 "dapr": {
