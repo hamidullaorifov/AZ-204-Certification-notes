@@ -307,19 +307,12 @@ containers:
 ```
 ### 📌 Exam Tips
 1. Prerequisites:
-
   - Pre-create Azure File Share and get storage account key.
-
   - Unique dns-name-label per region.
-
 2. Security:
-
   - Use storageAccountKey but consider Key Vault for production.
-
 3. Common Errors:
-
   - 403 Forbidden: Incorrect storage key/share name.
-
   - Mount denied: Container not running as root.
 
 ## 💡 Example Scenario
