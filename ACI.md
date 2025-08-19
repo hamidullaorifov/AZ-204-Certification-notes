@@ -54,8 +54,8 @@ properties:
 | Method	| When to Use
 |
 |---------|-----------------------------------------------------------------------------|
-| YAML	  | Simple deployments (only containers). Concise syntax.
-| ARM Template |	Complex deployments (e.g., containers + Azure Files + VNet integration).
+| YAML	  | Simple deployments (only containers). Concise syntax.                      |
+| ARM Template |	Complex deployments (e.g., containers + Azure Files + VNet integration).|
 ---
 ## 🌐 Networking & Storage
 - Networking:
